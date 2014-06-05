@@ -85,7 +85,7 @@ span:hover {
     opacity:1;
     }
     
-img {
+table, img {
 	width:200px;
 	height:200px;
 }
