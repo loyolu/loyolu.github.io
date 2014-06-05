@@ -20,6 +20,21 @@ html {
     height:100%;
 }
 
+#column2 {
+     float:left; 
+     margin:0;
+     background-color:#6495ed;
+     height:100%;   
+}
+
+#column3 {
+    text-align:center;
+    margin:0;
+    background-color:#EEEEEE;
+    height:100%;
+    margin-left:24%
+}
+
 /*
 div {
     background-color: #b0c4de;
