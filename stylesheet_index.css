@@ -86,10 +86,8 @@ span:hover {
     }
     
 img {
-	width:100px;
-	height:100px;
+	width:200px;
+	height:200px;
 }
 
-table, td {
-	border: 1px #70b8ff dashed;
-}    
+
