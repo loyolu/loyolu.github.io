@@ -28,7 +28,7 @@ html {
 }
 
 #column3 {
-    text-align:center;
+    /* text-align:center; */
     margin:0;
     background-color:#EEEEEE;
     height:100%;
