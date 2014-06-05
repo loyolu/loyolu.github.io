@@ -47,7 +47,7 @@
 	}
 	#main {
 		float:right;
-		width:480px;
+		width:67%;
 		padding:10px;
 		background:#9c9;
 	}
@@ -55,7 +55,7 @@
 	
 	#sidebar {
 		float:left;
-		width:230px;
+		width:33%;
 		padding:10px;
 		background:#6495ed;
 	}
