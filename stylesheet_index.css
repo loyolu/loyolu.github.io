@@ -72,7 +72,7 @@ span    {
     color: black;
     height: 100px;
     width:100px;
-    display:block;
+    /*display:block;*/
     top:0;
     center:0;
    /* text-align:center;
