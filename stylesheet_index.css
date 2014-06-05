@@ -70,8 +70,8 @@ img {
 span    {
     position: absolute;
     color: black;
-    height: 100px;
-    width:100px;
+    /*height: 100px;
+    width:100px;*/
     /*display:block;*/
     top:0;
     center:0;
