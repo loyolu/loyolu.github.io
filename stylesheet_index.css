@@ -2,7 +2,7 @@
 		margin:0;
 		padding:0;
 		color:#000;
-		background:#808080;
+		background:#000070;
 	}
 	#content {
 		width:750px;
@@ -24,7 +24,7 @@
 	 }
 	#nav {
 		padding:5px 10px;
-		background:#c99;
+		background:#808080;
 	}
 	#nav ul {
 		margin:0;
