@@ -69,14 +69,14 @@ img {
 
 span    {
     position: absolute;
-    color: white;
+    color: black;
     height: 100px;
     width:100px;
     display:block;
     top:0;
     center:0;
-    text-align:center;
-    padding-top:70px;
+   /* text-align:center;
+    padding-top:70px;*/
     opacity: 0;
     transition: opacity 1s;
 }
