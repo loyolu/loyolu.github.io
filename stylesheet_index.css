@@ -73,9 +73,9 @@ span    {
     /*height: 100px;
     width:100px;*/
     /*display:block;*/
-    top:0;
-    center:0;
-   /* text-align:center;
+    top:10;
+    /*center:0;
+    text-align:center;
     padding-top:70px;*/
     opacity: 0;
     transition: opacity 1s;
