@@ -22,6 +22,15 @@
 	    padding-left:1.5cm;
 	    text-align:left
 	 }
+	 
+	 h2 {
+		margin:0 0 1em;
+		font-family:Sans-Serif;
+		font-size:20px;
+		color: #25383C;
+		padding-left:1.5cm;
+		padding-right:.5cm
+		}
 	#nav {
 		padding:5px 10px;
 		background:#808080;
@@ -42,14 +51,7 @@
 		padding:10px;
 		background:#9c9;
 	}
-	h2 {
-		margin:0 0 1em;
-		font-family:Sans-Serif;
-		font-size:20px;
-		color: #25383C;
-		padding-left:1.5cm;
-		padding-right:.5cm
-	}
+
 	
 	#sidebar {
 		float:left;
