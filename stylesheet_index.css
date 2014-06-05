@@ -35,6 +35,16 @@ html {
     margin-left:24%
 }
 
+li {
+    list-style-type: none;
+}
+
+ul {
+    color:white;
+    font-family:Sans-Serif; 
+    padding-left:.5cm;
+}
+
 /*
 div {
     background-color: #b0c4de;
