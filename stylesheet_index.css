@@ -15,6 +15,12 @@
 	}
 	h1 {
 	    margin:0;
+	    text-shadow:1.5px 1.5px #808080;
+	    font-family:Calibri;
+	    color:royalBlue;
+	    font-size:55px;
+	    padding-left:1.5cm;
+	    text-align:left
 	 }
 	#nav {
 		padding:5px 10px;
