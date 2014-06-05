@@ -70,13 +70,13 @@ img {
 span    {
     position: absolute;
     color: black;
-    /*height: 100px;
-    width:100px;*/
-    /*display:block;*/
+    height: 100px;
+    width:100px;
+    display:block;
     top:10;
-    /*center:0;
+    /*center:0; */
     text-align:center;
-    padding-top:70px;*/
+    padding-top:70px;
     opacity: 0;
     transition: opacity 1s;
 }
