@@ -61,17 +61,11 @@ a {
     display:inline-block;
 }
         
-    
-img {
-    width: 100px:
-    height: 100px;
-}
-
 span    {
     position: absolute;
     color: black;
-    height: 100px;
-    width:100px;
+    height: 150px;
+    width:150px;
     display:block;
     top:0;
     center:0;
