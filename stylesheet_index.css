@@ -189,8 +189,8 @@ body {
     display: inline-block;
 }
 img {
-    width: 100px;
-    height: 100px;
+    width: 300px;
+    height: 300px;
 }
 .hover-content {
     position: absolute;
@@ -206,7 +206,7 @@ img {
     opacity: 1.0;
 }
 .hover-content span {
-    position: absolute;
+    /* position: absolute; */
     text-align: center;
     color: white;
     bottom: 0;
