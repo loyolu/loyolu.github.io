@@ -1,0 +1,33 @@
+
+draw grid
+- make it an object 
+and make the properies the following
+topRow
+middleRow
+bottomRow
+leftColumn
+middleColumn
+rightColumn
+leftDiagonal
+rightDiagonal
+
+designate player a (whenever playerA clicks on a square, make the value of that square equal 0.5)
+designate player b (whenever playerA clicks on a square, make the value of that square equal 1.0)
+
+set up each spot on the grid as variables (and divs?)
+clicked? 
+	grid(#)=0
+	if 
+	(123)
+	(147)
+	(159)
+	(258)
+	(357)
+	(456)
+	(369)
+	(789)
+
+
+function draw x
+function draw y
+
