@@ -143,6 +143,7 @@ a:active {
 color: #000000;
 }
 
+/*
 .hover-image {
     position: relative;
     width:100px;
@@ -175,4 +176,42 @@ td {
 
 table img {
 	width:33%;
+}
+*/
+
+body {
+    font-family: sans-serif;
+}
+.hover-image {
+    position: relative;
+    height: 100px;
+    width: 100px;
+    display: inline-block;
+}
+img {
+    width: 100px;
+    height: 100px;
+}
+.hover-content {
+    position: absolute;
+    height: 100px;
+    width: 100px;
+    display: block;
+    top: 0;
+    left: 0;
+    opacity: 0;
+    transition: opacity 1s;
+}
+.hover-content:hover {
+    opacity: 1.0;
+}
+.hover-content span {
+    position: absolute;
+    text-align: center;
+    color: white;
+    bottom: 0;
+    display: block;
+    height: 1.3em;
+    width: 100px;
+    background-color: rgba(0, 0, 0, 0.3)
 }
