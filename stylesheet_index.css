@@ -169,7 +169,10 @@ span:hover {
     opacity:1;
     }
     
-table img {
-	width:33%
-	};
+tr {
+	width:33%;
+	}
 
+table img {
+	width:33%;
+}
