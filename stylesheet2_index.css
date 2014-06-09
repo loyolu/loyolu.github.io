@@ -173,11 +173,11 @@ row {
   display: table-row;
 }
 
-#one #two #three {
+#one, #two, #three {
   display:table-cell;
 }
 
-.d1 .d2 .d3 {
+.d1, .d2, .d3 {
  float:left;
  width:200px;
  display:inline-block;
