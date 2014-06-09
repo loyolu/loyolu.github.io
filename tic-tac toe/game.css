@@ -61,29 +61,35 @@ h1 {
   border-right: 2px solid #000;
   border-bottom: 2px solid #000;
   background-color: #ff0;
+  float:left;
 }
 
 .d5 {
   border-right: 2px solid #000;
   border-bottom: 2px solid #000;
   background-color: #0ff;
+  float:left;
 }
 
 .d6 {
   border-bottom: 2px solid #000;
   background-color: #f0f;
+  float:left;
 }
 
 .d7 {
-border-right:2px solid #000;  
-background-color: #808080;
+  border-right:2px solid #000;  
+  background-color: #808080;
+  float:left;
 }
 
 .d8 {
   border-right: 2px solid #000;
   background-color: #3FBFFF;
+  float:left;
 }
 
 .d9 {
   background-color: #FF7F3F;
+  float:left;
 }
