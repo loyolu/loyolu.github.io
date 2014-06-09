@@ -168,6 +168,19 @@ img {
  height:200px;
  width:200px;
 }
+
+row {
+  display: table-row;
+}
+
+#one #two #three {
+  display:table-cell;
+}
+
+.d1 .d2 .d3 {
+ float:left;
+}
+
     
 /*
 td {
