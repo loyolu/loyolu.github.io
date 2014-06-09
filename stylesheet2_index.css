@@ -152,7 +152,7 @@ img {
  width:200px;
 }
 
-row {
+.row {
   display: table-row;
   margin: auto;
   
