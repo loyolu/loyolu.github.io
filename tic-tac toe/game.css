@@ -17,6 +17,7 @@ div {
 
 #one #two #three {
     display: table-cell;
+    float:left;
 }
 
 #middleRow {
