@@ -13,12 +13,27 @@ div {
 
 #topRow  {
   display: table-row;
-  }
+}
 
 .d1 .d2 .d3 {
     display: table-cell;
-    }
-    
+}
+
+#middleRow {
+  display:table-row;
+}
+
+.d4 .d5 .d6 {
+  display:table-cell;
+}
+
+#bottomRow {
+  display:table-row;
+}
+
+.d7 .d8 .d9 {
+  display:table-cell;
+}
     
 
 #one {
