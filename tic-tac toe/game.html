@@ -3,17 +3,24 @@
 
 <head>
   <link rel="stylesheet" type="text/css" href="game.css">
+  
+<!--  <script>
+  http://www.w3schools.com/jsref/event_onclick.asp
+  </script>
+-->
+  
 </head> 
 
 <body>
 
-<h1>T</h1>
+<h1>Tit Tac Toe</h1>
 <br> </br>
+<h2> Click once for "X" and twice for "O"</h2>
 
 <div id="containter">
   
   <div  class="r1" id="topRow">
-    <div class="d1" id="one"> 1 </div>
+    <div class="d1" id="one" onclick="console.log("X")" ondblclick="console.log("O")"> 1 </div>
     <div class="d2" id="two"> 2 </div>
     <div class="d3" id="three"> 3 </div>
   </div>
@@ -35,11 +42,3 @@
 </body>
 
 </html>
-
-<script>
-
-function drawX () {
-
-}
-
-</script>
