@@ -18,7 +18,6 @@ h1 {
 
 #one #two #three {
     display: table-cell;
-    float:left;
 }
 
 #middleRow {
@@ -42,17 +41,20 @@ h1 {
   border-right:2px solid #000;
   border-bottom: 2px solid #000;
   background-color: #f00;
+  float:left;
 }
 
 .d2 {
   border-right: 2px solid #000;
   border-bottom: 2px solid #000;
   background-color: #0f0;
+  float:left;
 }
 
 .d3 {
   border-bottom: 2px solid #000;
   background-color: #00f;
+  float:left;
 }
 
 .d4 {
