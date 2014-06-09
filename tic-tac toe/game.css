@@ -2,11 +2,16 @@ h1 {
   color:#0f0;
 }
 
-div:nth-child(3)
+/*div:nth-child(3)
 {
  height:200px;
  width:200px;
-} 
+}
+
+I want to set the height & width of each cell to 200px.
+When I did that using the nth-child selector, (and also already having each cell as float:left),
+everything floated left, so that only the column containing cells 3, 6, and 9 was displayed.
+*/
 
 #container {
   display: table;
