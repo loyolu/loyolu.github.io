@@ -15,7 +15,7 @@ div {
   display: table-row;
 }
 
-.d1 .d2 .d3 {
+#one #two #three {
     display: table-cell;
 }
 
@@ -23,7 +23,7 @@ div {
   display:table-row;
 }
 
-.d4 .d5 .d6 {
+#four #five #six {
   display:table-cell;
 }
 
@@ -31,7 +31,7 @@ div {
   display:table-row;
 }
 
-.d7 .d8 .d9 {
+#seven #eight #nine {
   display:table-cell;
 }
     
