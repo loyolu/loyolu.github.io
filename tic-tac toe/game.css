@@ -7,50 +7,50 @@ div {
   width:200px;
 }
 
-.d1 {
+#d1 {
   border-right:2px solid #000;
   border-bottom: 2px solid #000;
   background-color: #f00;
 }
 
-.d2 {
+#d2 {
   border-right: 2px solid #000;
   border-bottom: 2px solid #000;
   background-color: #0f0;
 }
 
-.d3 {
+#d3 {
   border-bottom: 2px solid #000;
   background-color: #00f;
 }
 
-.d4 {
+#d4 {
   border-right: 2px solid #000;
   border-bottom: 2px solid #000;
   background-color: #ff0;
 }
 
-.d5 {
+#d5 {
   border-right: 2px solid #000;
   border-bottom: 2px solid #000;
   background-color: #0ff;
 }
 
-.d6 {
+#d6 {
   border-bottom: 2px solid #000;
   background-color: #f0f;
 }
 
-.d7 {
+#d7 {
 border-right:2px solid #000;  
 background-color: #808080;
 }
 
-.d8 {
+#d8 {
   border-right: 2px solid #000;
   background-color: #3FBFFF;
 }
 
-.d9 {
+#d9 {
   background-color: #FF7F3F;
 }
