@@ -162,15 +162,21 @@ span {
 
 span:hover {
     opacity:1;
-    }
+}
+
+img {
+ height:200px;
+ width:200px;
+}
     
+/*
 td {
 width:100%;
 }
-
 table img {
 width:33%;
 }
+*/
 
 /*
 body {
