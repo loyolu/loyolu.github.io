@@ -1,0 +1,91 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+  <script src="jquery-1.11.1.min.js"></script>
+</head>
+
+<body>
+
+<h1><em> American Dreamin' ? </em> </h1>
+
+<svg width="800" height="800">
+
+<!-- Draws the yellow house -->
+<polygon points = "200 300, 200 700, 600 700, 600 300 "style="fill:yellow;
+                                               stroke:brown;stroke-width:2"
+                                          />
+ 
+<polygon points = "400 100, 200 300, 600 300"style="fill:yellow;
+                                               stroke:brown;stroke-width:2"
+                                          />
+
+<!-- Draws the white picket fence using a for loop in .js-->        
+<script type="text/javascript">
+  var x1 = 100;
+  var y1 = 700;
+  var x2 = 100;
+  var y2 = 600;
+  var x3 = 125;
+  var y3 = 575;
+  var x4 = 150;
+  var y4 = 600;
+  var x5 = 150;
+  var y5 = 700;
+  var newPentagon = $("<polygon points = "x1 y1 + "," + x2 y2 + "," x3 y3 + "," + x4 y4 + "," x5 y5">");
+    for (var i=1;i<=5;i++)  {
+      x1+=50;
+      x2+=50;
+      x3+=50;
+      x4+=50;
+      x5+=50;
+      var newPentagon = $("<polygon points = "x1 y1 + "," + x2 y2 + "," x3 y3 + "," + x4 y4 + "," x5 y5">");
+      $("svg").append(newPentagon);       
+    }
+ </script> 
+ </svg>
+</body>
+</html> 
+
+<!--
+<polygon points = "100 700, 100 600, 125 575, 150 600, 150 700"style="fill:white;
+                                               stroke:black;stroke-width:2"
+                                          />
+<polygon points = "150 700, 150 600, 175 575, 200, 600, 200 700"style="fill:white;
+                                               stroke:black;stroke-width:2"
+                                          />                                          
+<polygon points = "200 700, 200 600, 225 575, 250, 600, 250 700"style="fill:white;
+                                               stroke:black;stroke-width:2"
+                                          />
+<polygon points = "250 700, 250 600, 275 575, 300, 600, 300 700"style="fill:white;
+                                               stroke:black;stroke-width:2"
+                                          />
+<polygon points = "300 700, 300 600, 325 575, 350, 600, 350 700"style="fill:white;
+                                               stroke:black;stroke-width:2"
+                                          />
+<polygon points = "350 700, 350 600, 375 575, 400, 600, 400 700"style="fill:white;
+                                               stroke:black;stroke-width:2"
+                                          />                                          
+<polygon points = "400 700, 400 600, 425 575, 450, 600, 450 700"style="fill:white;
+                                               stroke:black;stroke-width:2"
+                                          />                                       
+<polygon points = "450 700, 450 600, 475 575, 500, 600, 500 700"style="fill:white;
+                                               stroke:black;stroke-width:2"
+                                          />
+<polygon points = "500 700, 500 600, 525 575, 550, 600, 550 700"style="fill:white;
+                                               stroke:black;stroke-width:2"
+                                          />
+<polygon points = "550 700, 550 600, 575 575, 600, 600, 600 700"style="fill:white;
+                                               stroke:black;stroke-width:2"
+                                          />                                          
+<polygon points = "600 700, 600 600, 625 575, 650, 600, 650 700"style="fill:white;
+                                               stroke:black;stroke-width:2"
+                                          />
+<polygon points = "650 700, 650 600, 675 575, 700, 600, 700 700"style="fill:white;
+                                               stroke:black;stroke-width:2"
+                                         />
+
+<polygon points = "100 700, 700 700, 700 725, 100 725 "style="fill:green;
+                                               stroke:green;stroke-width:2"
+                                         />
+-->
