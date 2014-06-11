@@ -1,0 +1,26 @@
+
+body {
+	font-family: sans-serif;
+	
+}
+
+h1 {
+	line-height: 90%;
+}
+
+h2 {
+	line-height: 90%;
+} 
+
+h3 {
+	line-height: 90%;
+}
+
+.time {
+	font-size: 6em; 
+		/* em is a multiplier, so it makes it relative to the current size */
+	text-align: center;
+	margin-top: 1.5em;
+}
+
+/* youmightnotneedjquery */
