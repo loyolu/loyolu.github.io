@@ -2,90 +2,116 @@
 <!DOCTYPE html>
 <html>
 <head>
-  <script src="jquery-1.11.1.min.js"></script>
+<style type="text/css">
+.box {width: 200px; height: 200px;background: red; margin: 50px;}
+</style>
+
 </head>
 
 <body>
 
-<h1 style="text-indent:100px"><em> American Dreamin' ? </em> </h1>
+<h1 style="text-indent:200px"><em> American Dreamin' ? </em> </h1>
 
-<svg width="800" height="800">
+<svg xmlns="http://www.w3.org/2000/svg" version="1.1" xmlns:xlink="http://www.w3.org/1999/xlink" width="800" height="800">
+
 
 <!-- Draws the yellow house -->
-<polygon points = "200 300, 200 700, 600 700, 600 300 "style="fill:yellow;
-                                               stroke:brown;stroke-width:2"
-                                          />
- 
-<polygon points = "400 100, 200 300, 600 300"style="fill:yellow;
-                                               stroke:brown;stroke-width:2"
-                                          />
+<polygon points = "200 300, 200 700, 600 700, 600 300 "style="fill:yellow; stroke:brown;stroke-width:2"/>
+<polygon points = "400 100, 200 300, 600 300"style="fill:yellow; stroke:brown;stroke-width:2"/>
+<polygon points = "100 700, 700 700, 700 725, 100 725 "style="fill:green; stroke:black;stroke-width:2"/>
 
-<!-- Draws the white picket fence using a for loop in .js-->        
-<script type="text/javascript">
-  var x1 = 100;
-  var y1 = 700;
-  var x2 = 100;
-  var y2 = 600;
-  var x3 = 125;
-  var y3 = 575;
-  var x4 = 150;
-  var y4 = 600;
-  var x5 = 150;
-  var y5 = 700;
-  var newPentagon = $("<polygon points = "x1 y1 + "," + x2 y2 + "," x3 y3 + "," + x4 y4 + "," x5 y5">");
-    for (var i=1;i<=5;i++)  {
-      x1+=50;
-      x2+=50;
-      x3+=50;
-      x4+=50;
-      x5+=50;
-      var newPentagon = $("<polygon points = "x1 y1 + "," + x2 y2 + "," x3 y3 + "," + x4 y4 + "," x5 y5">");
-      $("svg").append(newPentagon);       
-    }
- </script> 
- </svg>
-</body>
-</html> 
+<g id="pentagon" transform="translate (100 700)"> </g> 
+
+</svg>
 
 <!--
-<polygon points = "100 700, 100 600, 125 575, 150 600, 150 700"style="fill:white;
-                                               stroke:black;stroke-width:2"
-                                          />
-<polygon points = "150 700, 150 600, 175 575, 200, 600, 200 700"style="fill:white;
-                                               stroke:black;stroke-width:2"
-                                          />                                          
-<polygon points = "200 700, 200 600, 225 575, 250, 600, 250 700"style="fill:white;
-                                               stroke:black;stroke-width:2"
-                                          />
-<polygon points = "250 700, 250 600, 275 575, 300, 600, 300 700"style="fill:white;
-                                               stroke:black;stroke-width:2"
-                                          />
-<polygon points = "300 700, 300 600, 325 575, 350, 600, 350 700"style="fill:white;
-                                               stroke:black;stroke-width:2"
-                                          />
-<polygon points = "350 700, 350 600, 375 575, 400, 600, 400 700"style="fill:white;
-                                               stroke:black;stroke-width:2"
-                                          />                                          
-<polygon points = "400 700, 400 600, 425 575, 450, 600, 450 700"style="fill:white;
-                                               stroke:black;stroke-width:2"
-                                          />                                       
-<polygon points = "450 700, 450 600, 475 575, 500, 600, 500 700"style="fill:white;
-                                               stroke:black;stroke-width:2"
-                                          />
-<polygon points = "500 700, 500 600, 525 575, 550, 600, 550 700"style="fill:white;
-                                               stroke:black;stroke-width:2"
-                                          />
-<polygon points = "550 700, 550 600, 575 575, 600, 600, 600 700"style="fill:white;
-                                               stroke:black;stroke-width:2"
-                                          />                                          
-<polygon points = "600 700, 600 600, 625 575, 650, 600, 650 700"style="fill:white;
-                                               stroke:black;stroke-width:2"
-                                          />
-<polygon points = "650 700, 650 600, 675 575, 700, 600, 700 700"style="fill:white;
-                                               stroke:black;stroke-width:2"
-                                         />
+<div id="accordion">
+  <h3>Section 1</h3>
+  <div>
+    <p>
+    Mauris mauris ante, blandit et, ultrices a, suscipit eget, quam. Integer
+    ut neque. Vivamus nisi metus, molestie vel, gravida in, condimentum sit
+    amet, nunc. Nam a nibh. Donec suscipit eros. Nam mi. Proin viverra leo ut
+    odio. Curabitur malesuada. Vestibulum a velit eu ante scelerisque vulputate.
+    </p>
+  </div>
+  <h3>Section 2</h3>
+  <div>
+    <p>
+    Sed non urna. Donec et ante. Phasellus eu ligula. Vestibulum sit amet
+    purus. Vivamus hendrerit, dolor at aliquet laoreet, mauris turpis porttitor
+    velit, faucibus interdum tellus libero ac justo. Vivamus non quam. In
+    suscipit faucibus urna.
+    </p>
+  </div>
+  <h3>Section 3</h3>
+  <div>
+    <p>
+    Nam enim risus, molestie et, porta ac, aliquam ac, risus. Quisque lobortis.
+    Phasellus pellentesque purus in massa. Aenean in pede. Phasellus ac libero
+    ac tellus pellentesque semper. Sed ac felis. Sed commodo, magna quis
+    lacinia ornare, quam ante aliquam nisi, eu iaculis leo purus venenatis dui.
+    </p>
+    <ul>
+      <li>List item one</li>
+      <li>List item two</li>
+      <li>List item three</li>
+    </ul>
+  </div>
+  <h3>Section 4</h3>
+  <div>
+    <p>
+    Cras dictum. Pellentesque habitant morbi tristique senectus et netus
+    et malesuada fames ac turpis egestas. Vestibulum ante ipsum primis in
+    faucibus orci luctus et ultrices posuere cubilia Curae; Aenean lacinia
+    mauris vel est.
+    </p>
+    <p>
+    Suspendisse eu nisl. Nullam ut libero. Integer dignissim consequat lectus.
+    Class aptent taciti sociosqu ad litora torquent per conubia nostra, per
+    inceptos himenaeos.
+    </p>
+  </div>
+</div>
 
-<polygon points = "100 700, 700 700, 700 725, 100 725 "style="fill:green;
-                                               stroke:green;stroke-width:2"
-                                         />
--->
+
+
+<!-- Draws the white picket fence using a for loop in .js -->
+<script src="http://code.jquery.com/jquery-1.11.0.min.js"></script>
+<script src="../../downloads/jquery-ui-1.10.4.custom/js/jquery-ui-1.10.4.custom.js"></script>
+
+
+
+<script type="text/javascript">
+  $(function () {
+  var y1 = 0;
+  var y2 = -100;
+  var y3 = -125;
+  var y4 = -100;
+  var y5 = 0;
+
+  var s = "";
+
+    for (var i=0;i<12;i++)  {
+      var x1=i*50;
+      var x2 = x1 + 25;
+      var x3 = x1 + 50;
+
+      s += "<polygon points = '"+x1+ " " + y1 + "," + x1 + " " + y2 + ","+ x2 + " " + y3 + "," + x3 + " " + y4 + "," + x3 + " " +  y5 +"' style='fill:white; stroke:black;stroke-width:2'></polygon>";      
+    }
+
+    $("#pentagon").html(s);
+}
+);
+ </script> 
+
+<!-- 
+<script type="text/javascript">
+$(function() {
+    $( "#accordion" ).accordion();
+  });
+
+ </script>
+  -->
+</body>
+</html> 
