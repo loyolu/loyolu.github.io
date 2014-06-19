@@ -1,86 +1,19 @@
-
 <!DOCTYPE html>
 <html>
-<head>
-<style type="text/css">
-.box {width: 200px; height: 200px;background: red; margin: 50px;}
-</style>
-
-</head>
-
 <body>
 
 <h1 style="text-indent:200px"><em> American Dreamin' ? </em> </h1>
 
 <svg xmlns="http://www.w3.org/2000/svg" version="1.1" xmlns:xlink="http://www.w3.org/1999/xlink" width="800" height="800">
 
-
-<!-- Draws the yellow house -->
-<polygon points = "200 300, 200 700, 600 700, 600 300 "style="fill:yellow; stroke:brown;stroke-width:2"/>
-<polygon points = "400 100, 200 300, 600 300"style="fill:yellow; stroke:brown;stroke-width:2"/>
-<polygon points = "100 700, 700 700, 700 725, 100 725 "style="fill:green; stroke:black;stroke-width:2"/>
-
+<g id="roof" transform="translate (0 0)"></g>
+<g id="body" transform="translate (0 0)"></g>
 <g id="pentagon" transform="translate (100 700)"> </g> 
+<g id="grass" transform="translate (0 0)"></g>
 
 </svg>
 
-<!--
-<div id="accordion">
-  <h3>Section 1</h3>
-  <div>
-    <p>
-    Mauris mauris ante, blandit et, ultrices a, suscipit eget, quam. Integer
-    ut neque. Vivamus nisi metus, molestie vel, gravida in, condimentum sit
-    amet, nunc. Nam a nibh. Donec suscipit eros. Nam mi. Proin viverra leo ut
-    odio. Curabitur malesuada. Vestibulum a velit eu ante scelerisque vulputate.
-    </p>
-  </div>
-  <h3>Section 2</h3>
-  <div>
-    <p>
-    Sed non urna. Donec et ante. Phasellus eu ligula. Vestibulum sit amet
-    purus. Vivamus hendrerit, dolor at aliquet laoreet, mauris turpis porttitor
-    velit, faucibus interdum tellus libero ac justo. Vivamus non quam. In
-    suscipit faucibus urna.
-    </p>
-  </div>
-  <h3>Section 3</h3>
-  <div>
-    <p>
-    Nam enim risus, molestie et, porta ac, aliquam ac, risus. Quisque lobortis.
-    Phasellus pellentesque purus in massa. Aenean in pede. Phasellus ac libero
-    ac tellus pellentesque semper. Sed ac felis. Sed commodo, magna quis
-    lacinia ornare, quam ante aliquam nisi, eu iaculis leo purus venenatis dui.
-    </p>
-    <ul>
-      <li>List item one</li>
-      <li>List item two</li>
-      <li>List item three</li>
-    </ul>
-  </div>
-  <h3>Section 4</h3>
-  <div>
-    <p>
-    Cras dictum. Pellentesque habitant morbi tristique senectus et netus
-    et malesuada fames ac turpis egestas. Vestibulum ante ipsum primis in
-    faucibus orci luctus et ultrices posuere cubilia Curae; Aenean lacinia
-    mauris vel est.
-    </p>
-    <p>
-    Suspendisse eu nisl. Nullam ut libero. Integer dignissim consequat lectus.
-    Class aptent taciti sociosqu ad litora torquent per conubia nostra, per
-    inceptos himenaeos.
-    </p>
-  </div>
-</div>
-
-
-
-<!-- Draws the white picket fence using a for loop in .js -->
 <script src="http://code.jquery.com/jquery-1.11.0.min.js"></script>
-<script src="../../downloads/jquery-ui-1.10.4.custom/js/jquery-ui-1.10.4.custom.js"></script>
-
-
 
 <script type="text/javascript">
   $(function () {
@@ -90,28 +23,32 @@
   var y4 = -100;
   var y5 = 0;
 
-  var s = "";
+  //roof
+  var r = "<polygon points = '400 100, 200 300, 600 300' style='fill:yellow; stroke:brown;stroke-width:2'/>";
 
+  //body of house (rectangle)
+  var h = "<polygon points = '200 300, 200 700, 600 700, 600 300' style='fill:yellow; stroke:brown;stroke-width:2'/>";
+
+  // white picket fence
+  var fence = "";
     for (var i=0;i<12;i++)  {
       var x1=i*50;
       var x2 = x1 + 25;
       var x3 = x1 + 50;
-
-      s += "<polygon points = '"+x1+ " " + y1 + "," + x1 + " " + y2 + ","+ x2 + " " + y3 + "," + x3 + " " + y4 + "," + x3 + " " +  y5 +"' style='fill:white; stroke:black;stroke-width:2'></polygon>";      
+    fence += "<polygon points = '"+x1+ " " + y1 + "," + x1 + " " + y2 + ","+ x2 + " " + y3 + "," + x3 + " " + y4 + "," + x3 + " " +  y5 +"' style='fill:white; stroke:black;stroke-width:2'></polygon>";      
     }
 
-    $("#pentagon").html(s);
+  //grass
+  var g ="<polygon points = '100 700, 700 700, 700 725, 100 725' style='fill:green; stroke:black;stroke-width:2'/>";
+
+  //sends everything to be displayed in html
+  $("#roof").html(r);
+  $("#body").html(h);
+  $("#pentagon").html(fence);
+  $("#grass").html(g);
 }
 );
  </script> 
 
-<!-- 
-<script type="text/javascript">
-$(function() {
-    $( "#accordion" ).accordion();
-  });
-
- </script>
-  -->
 </body>
 </html> 
