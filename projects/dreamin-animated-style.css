@@ -1,4 +1,3 @@
-
 .path-roof {
   stroke-dasharray: 20;
   stroke-dashoffset: 800;
@@ -34,6 +33,13 @@
   -webkit-animation: dash 5s linear;
 }
 
+.path-clouds {
+  stroke-dasharray: 5;
+  stroke-dashoffset: 1000;
+  -webkit-animation: dash 5s linear;
+}
+
+
 @-webkit-keyframes dash {
   from {
     stroke-dashoffset: 1000;
@@ -42,22 +48,3 @@
     stroke-dashoffset: 0;
   }
 }
-
-/*
-.path {
-  stroke-dasharray: 0 1000;
-  stroke-dashoffset: 1000; // NOT NEEDED 
-  animation: dash 5s linear alternate infinite;
-}
-
-@keyframes dash {
-  from {
-    stroke-dasharray: 0 1000; //zero-length stroke, 
-                                 // 1000-length gap 
-  }
-  to {
-    stroke-dasharray: 1000 0; // 1000-length stroke, 
-                                // zero-length gap 
-  }
-}
-*/
