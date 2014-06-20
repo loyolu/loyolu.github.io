@@ -1,0 +1,55 @@
+
+<!DOCTYPE html>
+<html>
+<body>
+
+<h1 style="text-indent:200px"><em> American Dreamin' ? </em> </h1>
+
+<svg xmlns="http://www.w3.org/2000/svg" version="1.1" xmlns:xlink="http://www.w3.org/1999/xlink" width="800" height="800">
+
+<g id="roof" transform="translate (0 -100)"></g>
+<g id="body" transform="translate (0 -100)"></g>
+<g id="pentagon" transform="translate (100 600)"> </g> 
+<g id="grass" transform="translate (0 -100)"></g>
+
+</svg>
+
+<script src="http://code.jquery.com/jquery-1.11.0.min.js"></script>
+
+<script type="text/javascript">
+  $(function () {
+  var y1 = 0;
+  var y2 = -100;
+  var y3 = -125;
+  var y4 = -100;
+  var y5 = 0;
+
+  //roof
+  var r = "<polygon points = '400 100, 200 300, 600 300' style='fill:yellow; stroke:brown;stroke-width:2'/>";
+
+  //body of house (rectangle)
+  var h = "<polygon points = '200 300, 200 700, 600 700, 600 300' style='fill:yellow; stroke:brown;stroke-width:2'/>";
+
+  // white picket fence
+  var fence = "";
+    for (var i=0;i<12;i++)  {
+      var x1=i*50;
+      var x2 = x1 + 25;
+      var x3 = x1 + 50;
+    fence += "<polygon points = '"+x1+ " " + y1 + "," + x1 + " " + y2 + ","+ x2 + " " + y3 + "," + x3 + " " + y4 + "," + x3 + " " +  y5 +"' style='fill:white; stroke:black;stroke-width:2'></polygon>";      
+    }
+
+  //grass
+  var g ="<polygon points = '100 700, 700 700, 700 725, 100 725' style='fill:green; stroke:black;stroke-width:2'/>";
+
+  //sends everything to be displayed in html
+  $("#roof").html(r);
+  $("#body").html(h);
+  $("#pentagon").html(fence);
+  $("#grass").html(g);
+}
+);
+ </script> 
+
+</body>
+</html> 

@@ -1,0 +1,86 @@
+6-16-14
+
+http://code.tutsplus.com/tutorials/http-the-protocol-every-web-developer-must-know-part-1--net-31177
+http://www.garshol.priv.no/download/text/http-tut.html
+
+HTTP 
+- TCP protocol = The Transmission Control Protocol: core Internet protocol; provides reliable, ordered and error-checked delivery of a stream of octets between programs running on computers connected to a local area network, intranet or the public Internet. It resides at the transport layer.
+- http = response/request protocol (you send a request and servers sends back a response) 
+- http is plain-text
+
+request:
+1) GET / HTTP 1.1 / \n
+GET: http method
+/: path
+HTTP 1.1 : protocol
+2) Host: local host:900
+Host : key
+local host 9000 : value
+
+svg animation
+random number w/ bootstrap
+tic tac toe
+php game
+jQuery codeacademy
+mark/flag sms and mms as unread
+
+netcat - http://netcat.sourceforge.net/
+system tool
+
+use js to do fancy http/server stuff  (http module), node.js helps & (http://expressjs.com/)
+server.listen
+json
+
+=====
+Chrome Dev Tools
+Sam Beran, Third Iron
+
+- editing css and html
+- sources tab can be used as a txt editor
+- option+enter = multi-line statements in consolte tab of chrome
+- clicking link on right-hand side takes you to source code (good for debugging)
+-console.clear();
+-call stack 
+-cookies can be in resources tab
+	how to you set cookies on your own page
+dev tools -> settings -> general -> disable cache
+keyboard shortcuts
+
+http://devtoolschallenge.herokuapp.com/test8.html
+
+====
+
+server.js
+json
+
+chrome canary
+
+
+6-15-14
+server for todo app
+-same data at multiple locations
+-share 
+-backup
+-master branch = default
+
+
+difference between forking and branching
+alias - how to run sublime from terminal
+
+synchronus programming - won't complete any other tasks until task at hand is complete
+
+ajax 
+a - asynchronus (node.js is asyn; it can complete tasks simotaneously)
+ja - javascript
+x - request
+
+“ Progress is the activity of today and the assurance of tomorrow. ”
+— Ralph Waldo Emerson
+
+
+
+
+
+
+
+

@@ -1,0 +1,64 @@
+<!-- Trying to use <path>, an svg element(?) to animate drawing
+  svg line animation - http://css-tricks.com/svg-line-animation-works/
+  svg path - http://www.w3schools.com/svg/svg_path.asp
+            http://tutorials.jenkov.com/svg/path-element.html
+  formatter.js
+  D3.js - https://www.dashingd3js.com/svg-paths-and-d3js
+
+stuff to address
+top border of rect for house is cut thin
+add a door
+maybe add clouds and sun and chimney
+add windows, tree 
+
+*** challenge: add birds flying by
+-->
+
+<!DOCTYPE html>
+<html>
+<head>
+<link rel="stylesheet" type="text/css" href="dreamin-stylesheet.css">
+</head>
+
+<body>
+
+<h1 style="text-indent:200px"><em> American Dreamin' ? </em> </h1>
+
+
+<svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+   width="800px" height="800px" viewBox="0 0 800 800" enable-background="new 0 0 800 800" xml:space="preserve">
+
+<!-- Draws the yellow house -->
+  <path class="path-roof" id="roof" fill="yellow" stroke="brown" stroke-width="4" stroke-miterlimit="10" d= "M400 100, L200 300, L600 300 Z"/>
+  <path class="path-body" id="body" fill="yellow" stroke="brown" stroke-width="4" stroke-miterlimit="10" d="M200 300,L200 700,L600 700,L600 300 Z"/> 
+  <path class="path-grass" id="grass" fill="green" stroke="black" stroke-width="4" stroke-miterlimit="10"d="M100 700, L700 700, L700 725, L100 725 Z"/> 
+     <g id="pentagon" transform="translate (100 700)"> </g> 
+</svg>
+
+<!-- Draws the white picket fence using a for loop in .js -->
+<script src="http://code.jquery.com/jquery-1.11.0.min.js"></script>
+ 
+<script type="text/javascript">
+  $(function () {
+  var y1 = 0;
+  var y2 = -100;
+  var y3 = -125;
+  var y4 = -100;
+  var y5 = 0;
+
+  var s = "";
+
+    for (var i=0;i<12;i++)  {
+      var x1=i*50;
+      var x2 = x1 + 25;
+      var x3 = x1 + 50;
+
+      s += "<polygon points = '"+x1+ " " + y1 + "," + x1 + " " + y2 + ","+ x2 + " " + y3 + "," + x3 + " " + y4 + "," + x3 + " " +  y5 +"' style='fill:white; stroke:black;stroke-width:2'></polygon>";   
+    }
+
+    $("#pentagon").html(s);
+}
+);
+ </script> 
+</body>
+</html> 
