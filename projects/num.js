@@ -3,12 +3,19 @@ function runScript(e) {
         guessnum();
     }
 }
+        
 
   var lives = 3;
   var num = Math.floor((Math.random()*101)+1); 
   //var guess = document.forms['form1'].value;
   var guess = document.getElementById("guessNum");
-  alert("Choose a number from 1 to 100, then click 'Enter' ");
+  //alert("Choose a number from 1 to 100, then click 'Enter' ");
+  
+ //shouldn't this cause 
+ $(document).ready(function () {$ ("#guessNum").val("").focus();});
+// $(document).ready(function () {$('#enter').focus(); });
+
+
 
 function guessnum () {
   while (lives !== 0) {
@@ -18,26 +25,7 @@ function guessnum () {
         alert("You must enter a number!");
         return;
       }
-/*     else if (guess < num) {
-        lives --;
-          if (lives===0) {
-            alert("No, your guess is too low. You have 0 remaining guesses. Game Over.");
-          }
-          else {
-          alert("No, your guess is too low. Guess again! You have " + lives + " remaining guesses");
-          }
-          return;
-        }
-        else if (guess > num) {
-          lives--;
-          if (lives===0) {
-            alert("No, your guess is too low. You have 0 remaining guesses. Game Over.");
-          } else {
-          alert("No, your guess is too high. Guess again! You have " + lives + " remaining guesses");
-          }
-          return;
-        } 
-*/
+
       else if (guess < num) {
         lives --;
         switch(lives) {
