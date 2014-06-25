@@ -15,7 +15,7 @@ show_error("Invalid e-mail address");
 }
 /* Let's prepare the message for the e-mail */
 
-$subject = "Someone has sent you a message";
+$subject = "Email via portfolio website";
 
 $message = "
 
@@ -34,7 +34,7 @@ $message
 mail($myemail, $subject, $message);
 
 /* Redirect visitor to the thank you page */
-header('Location: http://address-of-confirmation-page.html');
+header('Location: http://loyolu.github.io/confirmation.html');
 exit();
 
 /* Functions we used */
