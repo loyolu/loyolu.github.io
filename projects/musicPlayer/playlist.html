@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+
+	<!-- Latest compiled and minified CSS -->
+<link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css">
+
+<!-- Optional theme -->
+<link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap-theme.min.css">
+<link rel ="stylesheet" href="list.css">
+</head>
+<body>
+	
+
+
+<div class="container">
+
+<div class="col-lg-9 col-lg-offset-4" >
+	<div class="row">
+<iframe src="https://embed.spotify.com/?uri=spotify:track:1cyRe2Rf81fgif9IOjcFpP" width="300" height="380" frameborder="0" allowtransparency="true"></iframe>
+</div> </div>
+
+<div class="begin">
+	<div class= "kitty"> <img src="cat.gif"/></div>
+	<div class="welcome"> <h1> Listen to something new!</h1> </div>
+</div>
+<div class="searchbox">
+<div class="row">
+  
+  <div class="col-lg-8 col-lg-offset-2" >
+    <div class="input-group">
+      <input id="searchgenre" type="text" placeholder="Enter keyword here" class="form-control">
+      <span class="input-group-btn">
+        <button id="search" type="button" class="btn btn-danger">Search</button>
+      </span>
+    </div><!-- /input-group -->
+  </div><!-- /.col-lg-6 -->
+</div><!-- /.row -->
+
+
+<div class= "row">
+	<div class="col-lg-12"><div class = "songtable">
+	<table class="table table-striped" id="table_div">
+		<thead>
+        <tr>
+          
+          <th class="trackcol">Track</th>
+          <th> Artist</th>
+          <th class="albumcol">Album</th>
+          <th> </th>
+          
+        </tr>
+      </thead>
+      <tbody id="searchresults">
+      </tbody>
+</table></div></div></div></div>
+	</div>
+
+
+<script src="http://code.jquery.com/jquery-1.11.0.min.js"></script>	
+	<script src="searching.js"></script>
+
+
+
+
+	
+</body>
+</html>
