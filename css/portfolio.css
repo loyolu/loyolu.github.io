@@ -1,0 +1,71 @@
+
+body {
+  margin-left: 1.0in;
+  margin-right: 1.0in;
+  position: relative;
+  background-position: center center;
+  background-position: top left;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+
+  padding-top: 50px;
+}
+
+div.wrapper {
+    width: 100%;
+    min-height: 100%
+}
+
+h1 {
+  font-size: 2.5em;
+}
+
+h2 {
+  padding-top: 1.5em;
+  font-family: "Lucida Console", Monaco, monospace;
+  vertical-align:text-top;
+  font-size: 25px;
+  color: black;
+}
+
+h3 {
+  text-align: left;
+}
+
+p {
+  color: black;
+  font-size: 1.125em;
+}
+
+div.navbar {
+  font-family: "Lucida Console", Monaco, monospace;
+  font-size: 1.3em;
+  color: rgb(2,2,2);
+
+}
+
+div.container{
+margin: auto;
+padding: 0;
+}
+
+
+
+div.name {
+  padding-top: 100px;
+  text-align: center;
+  font-family: "Lucida Console", Monaco, monospace;
+  vertical-align:text-top;
+  font-size: 2em;
+  color: white;
+} 
+
+
+div.navbar a {
+  text-decoration:none;
+  color:#fff;
+}
+
+div.navbar a:hover {
+  color:#3c3c3c; 
+}
