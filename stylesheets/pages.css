@@ -2,19 +2,15 @@
 body {
   margin-left: 1.0in;
   margin-right: 1.0in;
-  background-image:url('wooden.jpg');
   position: relative;
   background-position: center center;
-  background-color: white;
+  background-color: black;
+  color: green;
   background-position: top left;
   background-attachment: fixed;
   background-repeat: no-repeat;
 
   padding-top: 50px;
-}
-.starter-template {
-  padding: 40px 15px;
-  text-align: center;
 }
 
 div.wrapper {
@@ -23,7 +19,7 @@ div.wrapper {
 }
 
 h1 {
-  color: black;
+  color: green;
   font-size: 2.5em;
   font-family: "Lucida Console", Monaco, monospace;
 
@@ -36,6 +32,10 @@ h2 {
   vertical-align:text-top;
   font-size: 25px;
   color: black;
+}
+
+h3 {
+  text-align: left;
 }
 
 p {
@@ -69,45 +69,6 @@ div.name {
   color: white;
 } 
 
-.icons {
-  width:320px;
-  margin: auto;
-}
-
-
-.twitter{
-opacity: 0.6;
-display: inline-block;
-}
-
-.twitter:hover{
-opacity: 1;
-}
-
-.linkedin{
-opacity: 0.6;
-display: inline-block;
-}
-
-.linkedin:hover{
-opacity: 1;
-}
-
-.git{
-opacity: 0.6;
-}
-
-.git:hover{
-opacity: 1;
-}
-
-.email{
-opacity: 0.6;
-display: inline-block;
-}
-.email:hover{
-opacity: 1;
-}
 
 div.navbar a {
   text-decoration:none;
