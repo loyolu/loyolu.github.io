@@ -25,13 +25,13 @@ html,body{
 .btn-danger{
 	background-color: #995c00 !important;
   	background-image: none !important;
-  	border: none;
+  	border-color:  none !important;
 }
 
 .btn-danger:hover{
 	background-color: #995c00 !important;
   	background-image: none !important;
-  	border: none;
+  	border-color:  none !important;
 }
 
 .songtable{
