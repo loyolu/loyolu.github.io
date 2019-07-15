@@ -1,4 +1,4 @@
 ## Directory for storing my recent public presentations
-| File        | Description |
-| ----------- | ----------- |
-| `Amazon_Web_Services_101_20190711.zip` (Compressed PPT)       | Amazon Web Services 101 @ Women Who Code DC Meetup on July 11, 2019    |
+| File        | Description | Presentation Date |
+| ----------- | ----------- |  ----------- |
+| `Amazon_Web_Services_101_20190711.zip` (compressed)  | Amazon Web Services 101 @ Women Who Code DC Meetup | July 11, 2019    |
